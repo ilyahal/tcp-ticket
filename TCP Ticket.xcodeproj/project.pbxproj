@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA757D930ACF9C0611894151 /* Pods_TCP_Ticket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D268BC7FD6EF8B8B6A1232C9 /* Pods_TCP_Ticket.framework */; };
+		BBF83945203838A0006003B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF83944203838A0006003B7 /* AppDelegate.swift */; };
+		BBF83947203838A0006003B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF83946203838A0006003B7 /* ViewController.swift */; };
+		BBF83949203838A0006003B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF83948203838A0006003B7 /* Assets.xcassets */; };
+		BBF8394C203838A0006003B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF8394A203838A0006003B7 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5C64B68ABFA568042A42852 /* Pods-TCP Ticket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCP Ticket.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TCP Ticket/Pods-TCP Ticket.debug.xcconfig"; sourceTree = "<group>"; };
+		BBF83941203838A0006003B7 /* TCP Ticket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TCP Ticket.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBF83944203838A0006003B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBF83946203838A0006003B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBF83948203838A0006003B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBF8394B203838A0006003B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBF8394D203838A0006003B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF839542038CCF4006003B7 /* TCP Ticket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TCP Ticket.entitlements"; sourceTree = "<group>"; };
+		D268BC7FD6EF8B8B6A1232C9 /* Pods_TCP_Ticket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCP_Ticket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA94540BFB8FE8FFD9007BA5 /* Pods-TCP Ticket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCP Ticket.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCP Ticket/Pods-TCP Ticket.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBF8393E203838A0006003B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA757D930ACF9C0611894151 /* Pods_TCP_Ticket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B1EE82007218AA35B9CA3C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5C64B68ABFA568042A42852 /* Pods-TCP Ticket.debug.xcconfig */,
+				FA94540BFB8FE8FFD9007BA5 /* Pods-TCP Ticket.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CC605B5C051E9EEFD1726D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D268BC7FD6EF8B8B6A1232C9 /* Pods_TCP_Ticket.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBF83938203838A0006003B7 = {
+			isa = PBXGroup;
+			children = (
+				BBF83943203838A0006003B7 /* TCP Ticket */,
+				BBF83942203838A0006003B7 /* Products */,
+				6B1EE82007218AA35B9CA3C7 /* Pods */,
+				8CC605B5C051E9EEFD1726D3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BBF83942203838A0006003B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBF83941203838A0006003B7 /* TCP Ticket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBF83943203838A0006003B7 /* TCP Ticket */ = {
+			isa = PBXGroup;
+			children = (
+				BBF839542038CCF4006003B7 /* TCP Ticket.entitlements */,
+				BBF83944203838A0006003B7 /* AppDelegate.swift */,
+				BBF83946203838A0006003B7 /* ViewController.swift */,
+				BBF83948203838A0006003B7 /* Assets.xcassets */,
+				BBF8394A203838A0006003B7 /* Main.storyboard */,
+				BBF8394D203838A0006003B7 /* Info.plist */,
+			);
+			path = "TCP Ticket";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBF83940203838A0006003B7 /* TCP Ticket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBF83951203838A0006003B7 /* Build configuration list for PBXNativeTarget "TCP Ticket" */;
+			buildPhases = (
+				8B96233A34D429266CDCE270 /* [CP] Check Pods Manifest.lock */,
+				BBF8393D203838A0006003B7 /* Sources */,
+				BBF8393E203838A0006003B7 /* Frameworks */,
+				BBF8393F203838A0006003B7 /* Resources */,
+				AA65F9E6EF7C599E0C3E5F19 /* [CP] Embed Pods Frameworks */,
+				D02AAEFD473A87081A52CA6F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TCP Ticket";
+			productName = "TCP Ticket";
+			productReference = BBF83941203838A0006003B7 /* TCP Ticket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBF83939203838A0006003B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Ilia Khaliapin";
+				TargetAttributes = {
+					BBF83940203838A0006003B7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BBF8393C203838A0006003B7 /* Build configuration list for PBXProject "TCP Ticket" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBF83938203838A0006003B7;
+			productRefGroup = BBF83942203838A0006003B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBF83940203838A0006003B7 /* TCP Ticket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBF8393F203838A0006003B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF83949203838A0006003B7 /* Assets.xcassets in Resources */,
+				BBF8394C203838A0006003B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B96233A34D429266CDCE270 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCP Ticket-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA65F9E6EF7C599E0C3E5F19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TCP Ticket/Pods-TCP Ticket-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSocket/SwiftSocket.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSocket.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCP Ticket/Pods-TCP Ticket-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D02AAEFD473A87081A52CA6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TCP Ticket/Pods-TCP Ticket-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBF8393D203838A0006003B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBF83947203838A0006003B7 /* ViewController.swift in Sources */,
+				BBF83945203838A0006003B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BBF8394A203838A0006003B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BBF8394B203838A0006003B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BBF8394F203838A0006003B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBF83950203838A0006003B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		BBF83952203838A0006003B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5C64B68ABFA568042A42852 /* Pods-TCP Ticket.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "TCP Ticket/TCP Ticket.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5PQ3T7YGZE;
+				INFOPLIST_FILE = "$(SRCROOT)/TCP Ticket/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.ilyahal.TCP-Ticket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		BBF83953203838A0006003B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA94540BFB8FE8FFD9007BA5 /* Pods-TCP Ticket.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "TCP Ticket/TCP Ticket.entitlements";
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5PQ3T7YGZE;
+				INFOPLIST_FILE = "$(SRCROOT)/TCP Ticket/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.ilyahal.TCP-Ticket";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBF8393C203838A0006003B7 /* Build configuration list for PBXProject "TCP Ticket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF8394F203838A0006003B7 /* Debug */,
+				BBF83950203838A0006003B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBF83951203838A0006003B7 /* Build configuration list for PBXNativeTarget "TCP Ticket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBF83952203838A0006003B7 /* Debug */,
+				BBF83953203838A0006003B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBF83939203838A0006003B7 /* Project object */;
+}
