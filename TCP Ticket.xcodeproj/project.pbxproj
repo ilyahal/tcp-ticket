@@ -12,6 +12,7 @@
 		BBF83947203838A0006003B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF83946203838A0006003B7 /* ViewController.swift */; };
 		BBF83949203838A0006003B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBF83948203838A0006003B7 /* Assets.xcassets */; };
 		BBF8394C203838A0006003B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBF8394A203838A0006003B7 /* Main.storyboard */; };
+		BBF839562038D54B006003B7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BBF839552038D54B006003B7 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		BBF8394B203838A0006003B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BBF8394D203838A0006003B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BBF839542038CCF4006003B7 /* TCP Ticket.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TCP Ticket.entitlements"; sourceTree = "<group>"; };
+		BBF839552038D54B006003B7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D268BC7FD6EF8B8B6A1232C9 /* Pods_TCP_Ticket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCP_Ticket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA94540BFB8FE8FFD9007BA5 /* Pods-TCP Ticket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCP Ticket.release.xcconfig"; path = "Pods/Target Support Files/Pods-TCP Ticket/Pods-TCP Ticket.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -59,6 +61,7 @@
 		BBF83938203838A0006003B7 = {
 			isa = PBXGroup;
 			children = (
+				BBF839552038D54B006003B7 /* README.md */,
 				BBF83943203838A0006003B7 /* TCP Ticket */,
 				BBF83942203838A0006003B7 /* Products */,
 				6B1EE82007218AA35B9CA3C7 /* Pods */,
@@ -154,6 +157,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBF839562038D54B006003B7 /* README.md in Resources */,
 				BBF83949203838A0006003B7 /* Assets.xcassets in Resources */,
 				BBF8394C203838A0006003B7 /* Main.storyboard in Resources */,
 			);
