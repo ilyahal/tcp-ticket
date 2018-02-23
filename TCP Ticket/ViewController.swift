@@ -14,11 +14,7 @@ final class ViewController: NSViewController {
     // MARK: - Outlet
     
     /// Порт
-    @IBOutlet private weak var portTextField: NSTextField! {
-        willSet {
-            newValue.stringValue = "12345"
-        }
-    }
+    @IBOutlet private weak var portTextField: NSTextField!
     
     /// IP получателя для начала цикла
     @IBOutlet private weak var startClientIpTextField: NSTextField!
@@ -50,6 +46,7 @@ final class ViewController: NSViewController {
         }
     }
     
+    /// Лог
     @IBOutlet private weak var logTextView: NSTextView! {
         willSet {
             newValue.isEditable = false
@@ -102,11 +99,6 @@ private extension ViewController {
 // MARK: - NSViewController
 
 extension ViewController {
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-    }
     
     override func viewDidAppear() {
         super.viewDidAppear()
@@ -213,10 +205,12 @@ private extension ViewController {
                 let message = "Отправлено значение: \(number)"
                 log(message: message)
             case .failure(let error):
-                print(error)
+                let message = "Ошибка: \(error.localizedDescription)"
+                log(message: message)
             }
         case .failure(let error):
-            print(error)
+            let message = "Ошибка: \(error.localizedDescription)"
+            log(message: message)
         }
     }
     
@@ -273,7 +267,8 @@ private extension ViewController {
                 }
             }
         case .failure(let error):
-            print(error)
+            let message = "Ошибка: \(error.localizedDescription)"
+            log(message: message)
         }
     }
     
